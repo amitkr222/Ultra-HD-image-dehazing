@@ -23,6 +23,8 @@ Place the data set to be tested under the ./OHAZE_test file.
 Run the command python test_model.py.
 Test results can be found under the ./test_result folder.
 
+Run cal_par.py to calculate PSNR value of the output image.
+
 ## Input Hazy image and Output Dehazed image:
 <figure class="half">
     <img src="OHAZE_test/22_outdoor.jpg">
