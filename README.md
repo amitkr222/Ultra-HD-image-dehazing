@@ -24,10 +24,7 @@ Run the command python test_model.py.
 Test results can be found under the ./test_result folder.
 
 Run cal_par.py to calculate PSNR value of the output image.
-Run the command 
-'''bash
-python ssim.py --first 22_outdoor_gt.jpg --second test_result/22_outdoor_4.jpg
-to calculate SSIM of the output image.
+Run the command python ssim.py --first 22_outdoor_gt.jpg --second test_result/22_outdoor_4.jpg to calculate SSIM of the output image.
 
 
 ## Input Hazy image and Output Dehazed image:
