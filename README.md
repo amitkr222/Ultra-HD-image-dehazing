@@ -12,7 +12,7 @@ torch, numpy, tqdm, torchvision, kornia, opencv-python
 
 
 Training:
-Place the hazy training data set in the ./hazy folder and the corresponding clear data set in the ./gt folder.
+Place the hazy training data set in the ./haze folder and the corresponding clear data set in the ./gt folder.
 Run the command python train.py.
 The training process can be found under the ./result folder.
 The model is saved in the ./model folder.
