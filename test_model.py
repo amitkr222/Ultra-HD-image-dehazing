@@ -14,9 +14,7 @@ from tqdm import tqdm
 from PIL import Image
 import torch 
 import numpy as np
-#from skimage.measure import compare_ssim
 from skimage.metrics import structural_similarity as ssim
-#from skimage.measure import compare_psnr
 from skimage.metrics import peak_signal_noise_ratio as psnr
 from tqdm import tqdm
 import kornia
@@ -34,7 +32,6 @@ my_model.to(device)
 
 
 my_model.load_state_dict(torch.load("/content/drive/MyDrive/4KDehazing-main/model/our_deblur480.pth")) 
-#GAN.load_state_dict(torch.load("/home/dell/IJCAI/JBL/JBPSC/model/model_g_epoch69.pth"))
 to_pil_image = transforms.ToPILImage()
 
 
